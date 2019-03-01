@@ -1,0 +1,37 @@
+* {
+    background-color: lightblue;
+}
+
+body {
+    display: flex;
+}
+
+.card {
+    width: 500px;
+    height: 1000px;
+    flex-basis: content;
+    flex-flow: column wrap;
+    border: solid yellow;
+}
+
+header {
+    text-align: center;
+    border: solid red;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid blue;
+}
+
+section {
+    display: block;
+}
+
+p {
+    text-align: justify;
+    max-width: 250px;
+    max-height: 250px;
+}
