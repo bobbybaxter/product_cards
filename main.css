@@ -1,0 +1,73 @@
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    margin: 5px 5px;
+    color: #484848;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    margin: 10px 10px;
+    width: 300px;
+    flex-flow: column wrap;
+    box-shadow: 2px 2px #888888;
+}
+
+header > h2 {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px lightblue;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.descriptionText {
+    display: flex;
+    height: 110px;
+    text-align: justify;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: .8em;
+}
+
+.pseudoFoot {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    font-size: .9em;
+    background-color: gray;
+    color: yellow;
+}
+
+h4 {
+    padding: 5px;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+section.cardSpecs > p, section.cardPricing > p {
+    margin: 1px;
+    font-weight: bold;
+    font-size: .8em;
+    position: relative;
+    left: 15px;
+}
+
+footer > p {
+    margin: 0;
+    padding: 5px 5px 10px 5px;
+    font-size: .75em;
+}
+
+.cardPricing {
+    margin-bottom: 5px;
+}
