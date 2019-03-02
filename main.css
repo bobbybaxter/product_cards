@@ -14,10 +14,8 @@ body {
 .card {
     background-color: #B3E5FC;
     flex-flow: column nowrap;
-    /* flex: 1 0 calc(33.333% - 20px); */
     box-sizing: border-box;
     margin: 10px 10px;
-    flex-grow: 1;
     min-width: 300px;
     max-width: 300px;
     height: 608px;
@@ -92,20 +90,20 @@ footer > p {
     left: 4%;
 }
 
-@media only screen and (min-width: 1422px) {
+@media only screen and (min-width: 968px) {
     /* tablets and desktop */
-    .card:nth-child(4n) {
+    .card:nth-child(3n) + .card {
         margin-right: calc(100%);
     }
 }
 
-@media only screen and (max-width: 1421px) and (orientation: portrait) {
+@media only screen and (max-width: 969px) {
     /* phones - portrait */
     body {
         flex-flow: row wrap;
         justify-content: center;
     }
-    .card:nth-child(2n) {
-        margin-right: initial;
+    .card:nth-child(3n) + .card {
+        margin-right: 10px 10px;
     }
 }
