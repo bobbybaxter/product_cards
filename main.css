@@ -6,16 +6,12 @@
 body {
     display: flex;
     background-color: #FFF8F8;
-    display: flex;
-    /*align-items: flex-start;*/
     flex-flow: row wrap;
     margin: 5px 5px;
     color: #484848;
 }
 
 .card {
-    display: flex;
-    flex-shrink: 0 0 50%;
     background-color: #B3E5FC;
     flex-flow: column nowrap;
     margin: 10px 10px;
@@ -90,4 +86,21 @@ footer > p {
     width: 90%;
     top: 4%;
     left: 4%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones - landscape */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* phones - portrait */
+    body {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 }
