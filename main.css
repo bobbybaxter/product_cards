@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-shrink: 0 0 50%;
     background-color: #B3E5FC;
-    flex-flow: column;
+    flex-flow: column nowrap;
     margin: 10px 10px;
     width: 300px;
     height: 608px;
