@@ -98,9 +98,8 @@ footer > p {
 }
 
 @media only screen and (max-width: 969px) {
-    /* phones - portrait */
+    /* phones */
     body {
-        flex-flow: row wrap;
         justify-content: center;
     }
     .card:nth-child(3n) + .card {
